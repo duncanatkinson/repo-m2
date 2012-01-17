@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>net.myjung</groupId>
+  <artifactId>myjung-workbench</artifactId>
+  <version>1.0.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20120117.151446</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20120117151446</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.3-20120117.151446-1</value>
+        <updated>20120117151446</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.3-20120117.151446-1</value>
+        <updated>20120117151446</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

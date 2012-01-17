@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.myjung</groupId>
+  <artifactId>myjung-workbench</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120117151524</lastUpdated>
+  </versioning>
+</metadata>
