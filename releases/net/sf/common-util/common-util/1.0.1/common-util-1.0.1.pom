@@ -1,0 +1,100 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>net.sf.common-util</groupId>
+	<artifactId>common-util</artifactId>
+	<version>1.0.1</version>
+	<packaging>jar</packaging>
+
+	<name>common-util</name>
+	<url>http://common-util.sf.net</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<scm>
+		<url>https://common-util.svn.sourceforge.net/svnroot/common-util</url>
+		<connection>scm:svn:https://common-util.svn.sourceforge.net/svnroot/common-util/trunk/</connection>
+		<developerConnection>scm:svn:https://common-util.svn.sourceforge.net/svnroot/common-util/trunk/</developerConnection>
+	</scm>
+
+	<issueManagement>
+		<system>sourceforge</system>
+		<url>https://sourceforge.net/tracker/?group_id=566797</url>
+	</issueManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>2.1.2</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+		<extensions>
+			<extension>
+				<groupId>org.jvnet.wagon-svn</groupId>
+				<artifactId>wagon-svn</artifactId>
+				<version>1.9</version>
+			</extension>
+		</extensions>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>3.1.0.RELEASE</version>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>googlecode-repo-m2-releases</id>
+			<name>Googlecode Releases</name>
+			<url>svn:https://repo-m2.googlecode.com/svn/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>googlecode-repo-m2-snapshots</id>
+			<name>Googlecode Snapshots</name>
+			<url>svn:https://repo-m2.googlecode.com/svn/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+</project>
