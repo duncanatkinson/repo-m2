@@ -3,11 +3,12 @@
   <groupId>net.myjung</groupId>
   <artifactId>myjung</artifactId>
   <versioning>
-    <release>1.0.11</release>
+    <release>1.0.12</release>
     <versions>
       <version>1.0.10</version>
       <version>1.0.11</version>
+      <version>1.0.12</version>
     </versions>
-    <lastUpdated>20120216130003</lastUpdated>
+    <lastUpdated>20120304030538</lastUpdated>
   </versioning>
 </metadata>
