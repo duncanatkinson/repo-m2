@@ -20,6 +20,12 @@
         <value>1.0.8-20120327.150918-1</value>
         <updated>20120327150918</updated>
       </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.0.8-20120327.150918-1</value>
+        <updated>20120327150918</updated>
+      </snapshotVersion>
     </snapshotVersions>
   </versioning>
 </metadata>
